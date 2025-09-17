@@ -6,31 +6,83 @@
 // "Safe speed" if between 30 and 60
 // "Speeding" if between 61 and 100
 // "Dangerously fast" if over 100
+    // var speed = prompt("what is your speed?");
+    // if(speed < 30 ){
+    //     alert(" too slow!! ");
+    // }else if (speed >= 30 && speed <= 60 ){
+    //     alert(" safe speed !! ");
+    // }else if (speed >= 61 && speed <= 100 ){
+    //     alert(" speeding !! ");
+    // }else{
+    //     alert(" dangerously fast !! ");
+    // }
+
 // 2. Library Book Return Fine
 // Given number of late days, calculate the fine:
-
 // 0 days: $0
 // 1–5 days: $1 per day
 // 6–10 days: $2 per day
 // 11+ days: $5 per day
+// var days = prompt (" how many days are you late ? ");
+//     if ( days == 0 ){
+//         alert (" 0 days has 0$ fine ");
+//     }else if(days >0 && days <= 5){
+//         alert("you are fined " + days * 1 + "$");
+
+//     }else if(days > 5 && days <= 10 ){
+//         alert(" you are fined " + days * 2 + "$" );
+//     }else {
+//         alert(" you are fined " + days * 5 + "$")
+//     }
 // 3. Event Entry Eligibility
 // Check if a person (with age and ticket) can enter:
-
 // Must be 18 or older
 // Must have a valid ticket
+    // var age = prompt (" what is your age ?");
+    // var ticket = prompt(" do you have valid ticket?");
+    // if( age >= 18 && ticket == "yes" && ticket == " Yes"){
+    //     alert (" you are eligible!!  ");
+    // } else {
+    //     alert(" you are not eligible !! ");
+    // }
 // 4. Smartphone Battery Status
 // Given battery percentage, print:
-
 // 80–100: "Fully charged"
 // 50–79: "Good battery"
 // 20–49: "Low battery"
 // Below 20: "Charge now!"
+//    var battery = prompt(" what is your battery health? ");
+//    if (battery >= 80 && battery <= 100 ){
+//     alert(" fully charged!!! ");
+
+//    }else if(battery <= 79 && battery >= 50 ){
+//      alert(" good battery !!");
+
+//    }else if (battery >= 20 && battery <= 49){
+//     alert(" low battery !!");
+
+//    }else if(battery > 100 ){
+//    alert(" enter a valid number!! ");
+//    }else{
+//     alert("charge now ")
+//    }
 // 5. Discount Eligibility
 // Given customer type and age, apply discount:
 
 // Student: 20%
 // Senior (60+): 30%
 // Others: 0%
+//    var age = prompt(" what is your age ?");
+//    var state = prompt (" what is your customer type?");
+//    if (age > 9 && age < 60 && state == "student"){
+//     alert(" you can get up to 20%.  ");
+//    }else if(age >= 60 && state == "senior"){
+//     alert(" you can get up to 30 % discount.");
+//    }else {
+//     alert(" you dont have any discount!!");
+
+//    }
+
 // 6. Clothing Recommendation
 // Based on temperature (°C), suggest clothing:
 
@@ -38,22 +90,68 @@
 // 10–20: "Sweater"
 // 21–30: "T-shirt"
 // Above 30: "Light clothes"
+//    var temp = prompt(" what is temperature?");
+//    if (temp < 10 ){
+//     alert(" you should prefer heavy jacket!");
+//    }else if(temp >= 10 && temp <= 20 ){
+//     alert (" you should prefer sweater!");
+//    }else if (temp >20 && temp <= 30 ){
+//     alert (" you should prefer t shirt! ");
+//    }else{
+//     alert(" you should prefer light clothes!");
+//    }
 // 7. Water Intake Reminder
 // Based on activity level, suggest water intake:
 
 // Sedentary: 2L
 // Moderate: 2.5L
 // Active: 3L+
+    // var activity = prompt (" what is your activity level?");
+    // if (activity === "sedentary"){
+    //     alert(" you should take 2liters of water per day")
+
+    // }else if ( activity === "moderate" ){
+    //     alert(" you should take 2.5 liters of water per day");
+
+    // }else if (activity === "active"){
+    //     alert(" you should take 3liters of water per day")
+
+    // }else {
+    //     alert(" you can multiply liter of water per hour. ")
+
+    // }
+
 // 8. Exam Result Evaluation
 // Given three subject marks, print:
 
 // "Pass" if all marks are 40 or above
 // "Fail" if any mark is below 40
+//    var test1 = prompt (" what is your marks in urdu ?");
+//    var test2 = prompt (" what is your marks in maths ?");
+//    var test3 = prompt (" what is your marks in english ?");
+//    if (test1+ test2+ test3 >= 40){
+//     alert(" you are pass");
+
+//    }else {
+//     alert(" you are failed!");
+
+//    }
 // 9. App Theme Selection
 // Based on time of day (0–23), select theme:
 
 // 6–17: Light Mode
-// Otherwise: Dark Mode
+// Otherwise: Dark 
+//   var hour = prompt (" enter the current hour. (0-23):");
+// //   hour = PersInt(hour);
+
+//   if( hour > 5 && hour < 18 ){
+//     alert(" light mode!!");
+
+//   }else {
+//     alert(" dark mode");
+
+//   }
+   
 // 10. Meal Type Identifier
 // Based on time of day (0–23), identify meal:
 
@@ -61,7 +159,18 @@
 // 12–14: Lunch
 // 18–21: Dinner
 // Any other time: Snack
+    var hour = prompt (" enter the current hour. (0-23):");
+    if( hour > 5 && hour < 11 ){
+    alert(" breakfast ");
 
+    }else if (hour > 11 && hour <15) {
+    alert(" lunch");
+
+    }else if (hour > 17 && hour < 22 ) {
+    alert(" dinner ");
+    }else {
+        alert("snack")
+    }
 
 
 

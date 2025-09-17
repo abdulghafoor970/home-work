@@ -158,22 +158,28 @@
 // // ● "Senior Discount" if age ≥ 60
 // // ● "Premium Discount" if a premium member
 // // ● "No Discount" otherwise
-     var age = prompt ("what is your age ?");
-     var statu = prompt (" what is your status?");
-     if (age >= 60 && statu === "premium member"){
-        alert("Senior Premium Discount");
-     }else if(age >= 60 && statu === "none" ){
-        alert("Senior Discount! ");
-     }else if(age >= 30 && age < 60 && statu === "premium member"){
-        alert("Premium Discount");
-     }else{
-        alert("No Discount");
-     }
+    //  var age = prompt ("what is your age ?");
+    //  var statu = prompt (" what is your status?");
+    //  if (age >= 60 && statu === "premium member"){
+    //     alert("Senior Premium Discount");
+    //  }else if(age >= 60 && statu === "none" ){
+    //     alert("Senior Discount! ");
+    //  }else if(age >= 30 && age < 60 && statu === "premium member"){
+    //     alert("Premium Discount");
+    //  }else{
+    //     alert("No Discount");
+    //  }
 
 // // 3. Login and Email Verification
 // // ● If user is logged in and email is verified → "Access granted"
 // // ● If user is logged in but not verified → "Please verify your email"
 // // ● If not logged in → "Please log in"
+    // var email = prompt("enter your email.");
+    // if(email === "imabdulghafoor9@gmail.com" ){
+
+    // }
+        
+     
 
 // // 4. Contest Eligibility
 // // Check if a person is eligible to enter a contest:
@@ -181,8 +187,17 @@
 // // ● Must be between ages 18–35
 // // ● Must be from Pakistan or India
 // // ● Must not be banned
+    //  var age = prompt(" what is your age?");
+    //  var country = prompt(" what is your country");
+    //  var state = prompt(" are you banned?");
+    //  if( age => 18 &&  age <= 35 && country === "pakistan" && country === "india " && state === "no"   ){
+    //     alert(" you are wellcome ");
+    //  }else{
+    //     alert (" you are not allowed!!")
+    //  }
 
-// // Display appropriate messages for age, region, or ban issues.
+
+
 
 // // 5. Subscription Access Check
 // // Given the subscription plan and login status:
